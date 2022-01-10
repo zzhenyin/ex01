@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.uploadResult{
+	width:100%;
+	background-color:rgba(194,194,194,1);
+}
+.uploadResult ul{
+	display:flex;
+	flex-flow:row;
+	justify-content:center;
+	align-items;center;
+}
+.uploadResult ul li {
+	list-style : none;
+	padding:10px;
+	align-content:center;
+}
+.uploadResult ul li img{
+	width:100px;
+}
+.uploadResult ul li span{
+	color:white;
+}
+.bigPictureWrapper{
+	position:absolute;
+	display:none;
+	justify-content:center;
+	align-items:center;
+	top:50%;
+	width:50%;
+	height:50%;
+	background-color:rgba(194,194,194,1);
+	z-index:100%;
+	bacground:rgba(194,194,194,1);
+}
+.bicPicture{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: contain;
+box-sizing: border-box;
+}
+.bicPicture img{
+/* widows: 300px; */
+position:relative;
+background-size: contain;
+}
