@@ -22,12 +22,12 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee https://java.sun.com/xml/n
     <load-on-startup>1</load-on-startup>
 
 
-  <mutipart-config>
+  <multipart-config>
   	<location>C:\\upload\\temp</location>
   	<max-file-size>20971520</max-file-size>		<!-- 1mb*20 -->
   	<max-request-size>41943040</max-request-size>	<!-- 40mb -->
   	<file-size-threshold>20971520</file-size-threshold>	<!-- 20mb -->
-  </mutipart-config>
+  </multipart-config>
   
   </servlet>
   
